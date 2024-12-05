@@ -38,6 +38,14 @@ make
 make qtest
 ```
 
+## TLS and basic authentication
+
+The OVS Exporter supports TLS and basic authentication.
+
+To use TLS and/or basic authentication, you need to pass a configuration file
+using the `--web.config.file` parameter. The format of the file is described
+[in the exporter-toolkit repository](https://github.com/prometheus/exporter-toolkit/blob/master/docs/web-configuration.md).
+
 ## Exported Metrics
 
 | Metric | Meaning | Labels |
